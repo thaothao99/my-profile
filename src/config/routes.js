@@ -1,6 +1,6 @@
 export  const routes = [
     {
-        path: '/',
+        path: '/cv',
         exact: true,
         component: 'aboutme'
     }
