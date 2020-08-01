@@ -1,7 +1,8 @@
 import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route, Redirect } from 'react-router-dom'
 import { routes } from '../config/routes'
 import 'antd/dist/antd.css';
+import { Skeleton } from 'antd';
 
 function AppRouter() {
     return (
@@ -15,12 +16,13 @@ function AppRouter() {
                         component={()=>{
                             const Component = React.lazy(()=>import(`./${route.component}`))
                             return (
-                                <React.Suspense fallback="null"><Component></Component></React.Suspense>
+                                <React.Suspense fallback={<Skeleton></Skeleton>}><Component></Component></React.Suspense>
                             )
                         }}
                     ></Route>
                 )
             }
+            <Redirect to='/'></Redirect>
         </Switch>
     )
 }
