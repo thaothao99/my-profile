@@ -63,7 +63,7 @@
     .right {
       padding-right: 15px;
       padding-left: 30px;
-      text-align: justify;
+      text-align: left;
     }
     ul {
       display: block;
@@ -90,4 +90,19 @@
     @media (min-width:1200px){
     .container{width:1170px;}
     }
+}
+@media print {
+  h1 {
+    font-size: 32px;
+  }
+  h2{font-size: 24px;}
+  h3{font-size: 18.72px;}
+  h4{font-size: 16px;}
+  .aboutme{
+    font-size: 12px;
+  }
+  .ant-avatar {
+    width: 150px !important;
+    height: 150px !important;
+  }
 }

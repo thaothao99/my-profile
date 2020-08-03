@@ -16,6 +16,7 @@ export default function Experience() {
             <li>Building reusable components and front-end libraries for future use.</li>
             <li>Develops, and relaunches responsive the company websites.</li>
             <li>Translating designs and wireframes into high quality code.</li>
+            <li> Global state management with MobX.</li>
             <li>Do Unit Testing with Jest and Integration Test with Cypress.</li>
           </ul>
         </Col>

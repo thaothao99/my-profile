@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'antd';
-import { GithubOutlined, SkypeOutlined, FacebookOutlined } from '@ant-design/icons';
+import { GithubOutlined, SkypeOutlined, FacebookOutlined, LinkedinOutlined } from '@ant-design/icons';
 import './header.scss'
 
 export default function Header() {
@@ -25,6 +25,11 @@ export default function Header() {
               <li>
                 <a href="https://www.facebook.com/tthaotrann">
                   <FacebookOutlined style={{ fontSize: '30px' }} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/tran-thao-6236761b2/">
+                  <LinkedinOutlined style={{fontSize:'30px'}}></LinkedinOutlined>
                 </a>
               </li>
               <li>
