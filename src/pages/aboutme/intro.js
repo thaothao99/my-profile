@@ -29,7 +29,7 @@ export default function Intro() {
             <li>
               Knowledge of modern authorization mechanisms (JSON WebToken).
             </li>
-            <li>Experience with Babel, Webpack, NPM, Yarn.</li>
+            {/* <li>Experience with Babel, Webpack, NPM, Yarn.</li> */}
             <li>Good understanding of code versioning tools (Git).</li>
             <li>Knowing well about OOP, Data Structures, Algorithms.</li>
             <li>Basic knowledge of Levels Test in Sofware Testing. </li>

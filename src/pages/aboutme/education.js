@@ -27,7 +27,7 @@ export default function Education() {
             <h4>
               <i>University of Information Technology VNU-HCM</i>
             </h4>
-            <p>July 2019 – Present</p>
+            <p>2017 – Present</p>
             <p>
               <i>Major: </i>Information System
             </p>
