@@ -53,7 +53,7 @@ export default function Education() {
               <i>Language - English</i>
             </h4>
             <p>
-              <i>Toeic: </i>690
+              {/* <i>Toeic: </i>690 */}
             </p>
           </div>
         </Col>
